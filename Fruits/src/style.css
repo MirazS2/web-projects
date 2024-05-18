@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/bg-banner.png);
+}
+
+.bg-color{
+    background-color: rgb(255, 218, 218);
+}
+.nav-item .dropdown-menu{
+    background-color: rgb(255, 218, 218);
+}
+.dropdown-menu .dropdown-item{
+    background-color: rgb(255, 218, 218);
+}
+    .dropdown-menu .dropdown-item:hover{
+        background-color: brown;
+        color: white;
+    }
+
+.Titulo{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Texto{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.Negrito {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.container-fluid .navbar-brand{
+    color: brown;
+    font-size: 1.8em;
+}
+    .container-fluid .navbar-brand:hover{
+    color: brown;
+}
+
+.d-flex .form-control{
+    background-color: black;
+    opacity: 30%;
+    color: white;
+}
+
+.carousel-item{
+    background-color: black;
+}
+
+.carousel-item-img{
+    height: 30em;
+    object-fit: cover;
+    object-position: 0 60%;
+    opacity: 65%;
+}
+
+.carousel-caption{
+    margin-bottom: 7em;
+}
+
+.carousel-caption-texto{
+    font-size: 3em;
+}
+
+.d-flex .btn{
+    background-color: brown;
+    border: 0;
+    color: white;
+}
+    .d-flex .btn:hover{
+        background-color: blue;
+    }
+
+.main-content{
+ margin: 2.5em 0;
+}
+.imagens-receitas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20rem;
+    margin: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: transform .13s;
+}
+    .card:hover{
+        transform: scale(1.05);
+    }
+.card-img-top{
+    height: 15em;
+    object-fit: cover;
+}
+.card-body .btn{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    border: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 218, 218);
+    padding: 2em;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: brown;
+}

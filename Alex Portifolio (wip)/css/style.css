@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.manrope{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+----
+HOME
+----
+*/
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #faf7f3;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    margin: 2em 0em 2em 7.5em;
+    text-align: center;
+}
+    .logo hr{
+        height: .1em;
+        background-color: black;
+        border: none;
+    }
+
+.menu{
+    margin: 3em 7.5em;
+}
+    .menu ul li{
+        display: inline;
+        padding-left: 1em;
+    }
+        .menu ul li a{
+            color: black;
+            font-size: large;
+            padding: 1em;
+        }
+        .menu ul li a:hover{
+            background-color: black;
+            color: white;
+        }
+
+.top-main{
+    padding: 2.5em 7em;
+}
+
+@keyframes zoom1{ 
+    from {scale: 1;} 
+    to {scale: 1.1;} 
+} 
+@keyframes reverse1 { 
+    from {scale: 1.1;} 
+    to {scale: 1;} 
+}
+.main-contact{
+    text-align: center;
+}
+    .main-contact a img{
+        margin: 1em;
+        animation-name: reverse1; 
+        animation-duration: .15s; 
+    }
+    .main-contact a img:hover{
+        animation-name: zoom1; 
+        animation-duration: .15s; 
+        animation-fill-mode: forwards; 
+    }
+
+
+.vids{
+    justify-content: center;
+    display: flex;
+    margin-top: 3em;
+}
+    .vids figure legend{
+        text-align: center;
+    }
+.vid1{
+    padding-right: 5em;
+}
+
+
+.portifolio{
+    background-color: #faf7f3;
+    margin-top: 5em;
+    text-align: center;
+}
+main h2{
+    padding-top: 1.5em;
+    font-size: 2em;
+}
+
+.banners{
+    display: flex;
+    justify-content: center;
+}
+@keyframes zoom2{ 
+    from {scale: 1;} 
+    to {scale: 1.05;} 
+} 
+@keyframes reverse2 { 
+    from {scale: 1.05;} 
+    to {scale: 1;} 
+}
+.banners figure{
+    margin: 3em;
+    animation-name: reverse2; 
+    animation-duration: .15s; 
+}
+    .banners figure:hover { 
+        animation-name: zoom2; 
+        animation-duration: .15s; 
+        animation-fill-mode: forwards; 
+    }
+    .banners figure img{
+        border-radius: 10px;
+    }
+
+.banners a{
+    color: black;
+}
+
+.about{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 5em 5em;
+}
+.about figure img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.legend{
+    max-width: 500px;
+    margin-left: 3em;
+}
+    .legend h3{
+        font-size: 2em;
+        padding-bottom: 1em;
+    }
+    .legend p{
+        font-size: 1.3em;
+        padding-bottom: 1em;
+    }
+
+    .social-media{
+        padding-top: 3em;
+    }
+    .social-media img{
+        padding-right: 1em;
+        animation-name: reverse1; 
+        animation-duration: .15s; 
+    }
+        .social-media img:hover{
+            animation-name: zoom1; 
+            animation-duration: .15s; 
+            animation-fill-mode: forwards;
+        }
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer ul{
+    padding: 2em 2em;
+}
+footer ul li{
+    display: inline;
+    padding-right: .7em;
+}
+
+
+
+
+/*
+----------
+PORTIFOLIO
+----------
+*/
+main{
+    text-align: center;
+}
+.main-p h2{
+    margin: 1.5em;
+}
+
+.soundtracks figure{
+    display: flex;
+    justify-content: center;
+}
+    .soundtracks figure section{
+        width: 500px;
+        margin-left: 2em;
+        padding-top: 2em;
+    }
+        .soundtracks figure section p{
+            padding-bottom: 1em;
+        }

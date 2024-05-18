@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5A47AB;
+}
+
+header figure{
+    padding: 84px 0 84px 315px;
+}
+
+main{
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;    
+}
+input{
+    color: #5A47AB;
+}
+.main-content{
+    max-width: 560px;
+}
+    .main-content h2{
+        color: #FFFFFF;
+        font-size: 36px;
+    }
+        .formulario input,
+        .formulario label{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1em;
+        }
+        .formulario h3{
+            margin-top: .5em;
+        }
+            .op1 input{
+                width: 560px;
+                height: 99px;
+                border: 0;
+                border-radius: 12px;
+                padding-left: 27px;
+                font-size: 20px;
+            }
+            ::placeholder {
+                color: #5A47AB;
+            }
+
+            .op2{
+                display: flex;
+                font-size: 14px;
+                justify-content: space-between;
+            }
+                .op2__Remind input,
+                .op2__Remind label{
+                    display: inline;
+                }
+            
+            .btnSignin{
+                background-color: #FFFFFF;
+                border: 0;
+                border-radius: 12px;
+                font-size: 20px;
+                text-align: center;
+                padding: 38px 262px;
+            }
+
+
+.op-signup{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-top: 10em;
+    gap: 1em;
+}
+    .op-signup a{
+        font-weight: 700;
+    }
